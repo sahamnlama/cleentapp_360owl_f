@@ -13,7 +13,7 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
-    <name>push-notification</name>
+    <name>client 360Owl</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>

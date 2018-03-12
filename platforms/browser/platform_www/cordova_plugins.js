@@ -15,21 +15,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
-        "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "runs": true
-    },
-    {
         "file": "plugins/cordova-plugin-local-notification/www/local-notification.js",
         "id": "cordova-plugin-local-notification.LocalNotification",
         "pluginId": "cordova-plugin-local-notification",
@@ -55,6 +40,21 @@ module.exports = [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
+        "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -62,9 +62,9 @@ module.exports.metadata =
 {
     "cordova-plugin-app-event": "1.2.1",
     "cordova-plugin-device": "2.0.1",
-    "cordova-plugin-inappbrowser": "2.0.2",
     "cordova-plugin-local-notification": "0.8.4",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-inappbrowser": "2.0.2"
 }
 // BOTTOM OF METADATA
 });
